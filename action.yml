@@ -1,0 +1,13 @@
+name: 'Hello World'
+description: 'My test action'
+inputs:
+  name:
+    description: 'what to print'
+    required: true
+    default: 'World'
+outputs:
+  time:
+    description: 'The time of execution'
+runs:
+  using: 'node12'
+  main: 'index.js'
