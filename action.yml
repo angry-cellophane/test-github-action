@@ -10,4 +10,4 @@ outputs:
     description: 'The time of execution'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'dist/index.js'
